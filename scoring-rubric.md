@@ -35,7 +35,8 @@ Shape is assessed first. A well-compressed answer with the wrong structure is st
 | Opinion / strength | Used STAR (told a story) instead of leading with a headline and two pillars. |
 | Process | Described how they feel about the process rather than the steps they follow. |
 | Analytical | Gave evidence without a claim, or a claim without evidence. |
-| Presentation | Organised by topic rather than by arrow. Sections feel like an agenda, not an argument. |
+| Presentation (structure) | Organised by topic rather than by arrow. Sections feel like an agenda, not an argument. |
+| Presentation (message) | Drafted the outline before identifying the arrow. Structure exists but no single point runs through it. |
 
 ---
 
