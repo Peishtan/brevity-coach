@@ -126,12 +126,10 @@ Every answer is scored 1–10 across three dimensions, mirroring the three layer
 
 **Games** — written games that build the underlying content habits that make answers better. No questions, no dimension scoring. One observation per session.
 
-- **Triple Step** — write on a random topic while integrating injected words seamlessly without losing your thread. Builds direction and resilience under pressure.
-- **Conviction Prompts** — write while completing high-conviction sentence starters. Builds commitment and reduces hedging.
-- **Freestyle** — respond to a topic in fifty words or fewer, arrow in sentence one. Topics range from professional scenarios to personal and improv prompts. Builds compression as a default and forces the arrow to exist before anything else gets written.
 - **Headline Only** — five questions, one sentence each. No context, no setup. Trains the Lead gate directly.
 - **Compression Drill** — rewrite a full answer at half the word count, then compress to a single sentence. Trains the editing instinct.
 - **Pillar Stress Test** — state a position, get asked "why?" two or three times. Finds the real reason underneath the stated one.
+- **Freestyle** — respond to a topic in fifty words or fewer, arrow in sentence one. Topics range from professional scenarios to personal and improv prompts. Builds compression as a default and forces the arrow to exist before anything else gets written.
 
 Coming later — Written comms, Stakeholder updates. Use Custom mode in the meantime.
 
