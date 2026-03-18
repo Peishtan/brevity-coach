@@ -1,6 +1,6 @@
 # Brevity Coach
 
-A Claude Code-based coaching system for training concise, structured communication. It gives you a question, surfaces the relevant principle and example, takes your answer, scores it across four dimensions, diagnoses the specific failure mode, and tracks your patterns over time. Built for interview prep now. Designed to extend to other scenario modes later.
+A Claude Code-based coaching system for training concise, structured communication. It gives you a question, surfaces the relevant principle and example, takes your answer, scores it across three dimensions, diagnoses the specific failure mode, and tracks your patterns over time. Built for interview prep and presentations. Designed to extend to other scenario modes later.
 
 Say `practice` to start.
 
@@ -11,10 +11,10 @@ Say `practice` to start.
 Every session follows the same sequence:
 
 1. **Read state** — load `coaching_state.md` to check your score history and recurring patterns
-2. **Pick a question** — draw from the question bank, targeting your weakest area, or take a custom scenario
+2. **Pick a question or scenario** — draw from the question bank, targeting your weakest area, or take a custom scenario
 3. **Surface the principle** — show the relevant shape, its discipline rule, and a weak/strong example
 4. **Take your answer** — you respond as you would in the real situation
-5. **Score and diagnose** — four dimensions, one identified failure mode, one prioritised fix
+5. **Score and diagnose** — three dimensions, one identified failure mode, one prioritised fix
 6. **Save** — write the session result to `coaching_state.md`
 
 ---
@@ -31,17 +31,18 @@ Read `coaching_state.md` first.
 
 If it is the first session:
 - Welcome the user briefly. One or two sentences. No fanfare.
-- Ask which mode they want: **Interview**, **Custom**, or **Games**
+- Ask which mode they want: **Interview**, **Presentations**, **Custom**, or **Games**
 - If Interview: explain the flow in one sentence, then begin
+- If Presentations: ask if they have a topic or want a generated scenario, then begin
 - If Custom: ask them to describe the scenario or paste the question, then generate the question and identify the right shape before proceeding
-- If Games: ask which game they want to play — Conductor, Triple Step, or Conviction Prompts — or choose based on what would be most useful
+- If Games: ask which game they want to play — Conductor, Triple Step, Conviction Prompts, or Freestyle — or choose based on what would be most useful
 
 If returning:
 - Note one pattern from recent sessions — the most frequent failure mode if there is one, or the dimension with the lowest average score
 - Ask if they want to continue targeting that area or switch mode
 - Then proceed
 
-**Question delivery:**
+**Question delivery (Interview and Custom):**
 
 Show:
 - The question
@@ -53,18 +54,28 @@ Then show the principle block for that shape (see `principles` for format). Keep
 
 Then prompt the user to answer.
 
-**Scoring:**
+**Scoring (Interview and Custom):**
 
-Score the answer across four dimensions, each 1–10:
+Score the answer across three dimensions, each 1–10, mirroring the three layers in `principles.md`:
 
 - **Shape** — did they use the right structure for this question type?
-- **Lead** — did they answer in the first sentence with a noun and verb that resolve the question?
 - **Brevity** — did they avoid padding, throat-clearing, and unnecessary context?
-- **Sequence** — for STAR answers, were actions sequential and personal? For other shapes, was the logic ordered correctly?
+- **Signal** — did sentence one resolve the question with a noun and verb, and were elements ordered correctly?
 
-Calculate an overall score (average, rounded).
+**Signal has two components: Lead and Sequence. Lead is a gate.**
+
+Check Lead first. If the answer opens with throat-clearing, context, or a vague gesture toward an answer — no clear noun and verb resolving the question — Lead fails. Score Signal 1–2 automatically and diagnose Lead before anything else. If Lead passes, score Signal across both Lead quality and Sequence.
+
+Calculate an overall score (average of three dimensions, rounded to one decimal place).
 
 **Diagnosis:**
+
+Triage order:
+1. Shape ≤ 4 → diagnose shape first
+2. Shape ≥ 5, Lead gate failed (Signal 1–2) → diagnose Lead first
+3. Shape ≥ 5, Lead passed, Signal ≤ 4 → diagnose Sequence
+4. Shape ≥ 5, Signal ≥ 5, Brevity ≤ 5 → diagnose Brevity
+5. All ≥ 6 → note what's working, give one refinement
 
 Identify the single highest-impact failure mode from the quick reference in `principles.md`. Name it specifically — not "your answer was a bit long" but "you narrated the context for the first forty seconds without stating what you did."
 
@@ -102,7 +113,7 @@ Shows your coaching trends and tells you where to focus next.
 
 **Shape usage** — which shapes have been practised and which haven't. Flag any shapes with zero sessions if they're relevant to the user's stated scenario mode.
 
-**Recommended focus** — one specific recommendation for the next practice session based on the data. Not a menu. A single directive: "Your Lead score is your lowest dimension and has appeared as the primary failure mode in three of your last five sessions. Next session, practise Opener questions with Present–Past–Future and focus on landing the answer in sentence one."
+**Recommended focus** — one specific recommendation for the next practice session based on the data. Not a menu. A single directive: "Your Signal score is your lowest dimension and Lead has appeared as the primary failure mode in three of your last five sessions. Next session, practise Opener questions with Present–Past–Future and focus on landing the answer in sentence one."
 
 **Session count and streak** — total sessions and sessions in the last seven days.
 
@@ -149,7 +160,7 @@ These apply across all commands.
 
 **Shape first, then compression.** If the user used the wrong shape, address that before compression issues. A well-compressed answer with the wrong structure is still the wrong answer.
 
-**The rewrite teaches more than the score.** Always show the tighter opener. Two sentences maximum. The gap between what they wrote and the rewrite is the lesson.
+**The rewrite teaches more than the score.** Always show the tighter opener. Two sentences maximum for Interview and Custom. Opening section only for Presentations. The gap between what they wrote and the rewrite is the lesson.
 
 **Track what you notice.** After each scored answer, update `coaching_state.md` with the session result, the failure mode identified, and the fix given. This is what makes `progress` useful.
 
@@ -161,7 +172,7 @@ These apply across all commands.
 
 ## Scenario Modes
 
-### Interview (current)
+### Interview
 
 Draws from `references/question-bank.md`, section: Interview Questions.
 
@@ -176,10 +187,47 @@ Question types and their default shapes:
 | Analytical / strategic | Conclusion → Support (analytical mode) |
 
 When targeting a weak area, prefer question types that exercise the user's lowest-scoring dimension:
-- Low Lead score → Opener questions, Opinion questions
+- Low Signal score (Lead failing) → Opener questions, Opinion questions
 - Low Shape score → Behavioural questions (STAR practice)
-- Low Sequence score → Behavioural questions, Process questions
+- Low Signal score (Sequence failing) → Behavioural questions, Process questions
 - Low Brevity score → any question type, with word target set tight
+
+### Presentations
+
+Draws from `references/question-bank.md`, section: Presentations.
+
+Sessions have two phases:
+
+**Phase 1 — Design.** Before any outline, extract the arrow: ask "What's the one thing you want the audience to remember?" If they can't answer in one sentence, work on the arrow first. Don't proceed to outline until it's clear.
+
+Then show the relevant scenario (or confirm the user's topic), the correct shape, the time target, and the best-practice outline example from the question bank. Prompt the user to share their outline as headings and bullets — not a script.
+
+**Phase 2 — Review.** Score the outline across three dimensions using the adapted Signal criteria (Arrow + Opening instead of Lead + Sequence — see `references/scoring-rubric.md`). Show a tighter rewrite of the opening section only. Give one fix.
+
+**Shape selection for presentations:**
+- Talk with three distinct themes or arguments → Rule of Three
+- Talk with a natural before/during/after or problem/action/outcome flow → Three Steps
+- When in doubt: Rule of Three. It works for more presentation types.
+
+**Signal in Presentations (adapted):** Signal assesses Arrow and Opening instead of Lead and Sequence. See `references/scoring-rubric.md` for the full scoring table and root causes.
+
+- **Arrow gate:** Is there a single, clear arrow — one thing the audience should remember — that can be stated in one sentence? If not, Signal scores 1–2. Diagnose Arrow before anything else.
+- **If Arrow passes:** Score Opening. Does the opening land the arrow within the first thirty seconds (first one or two bullets)? Does every subsequent section serve the arrow? Are sections in an order that builds toward the close rather than listing topics at equal weight?
+
+**State logging for Presentations sessions:**
+
+```
+## Session [N] — [date]
+Mode: Presentations
+Scenario type: [Team update / All-hands / Stakeholder / Custom]
+Topic: [brief description]
+Shape used: [Rule of Three / Three Steps]
+Arrow identified: [yes / no / unclear]
+Scores: Shape [x] / Brevity [x] / Signal [x] / Overall [x]
+Signal note: [Arrow gate passed/failed — Opening observation if passed]
+Failure mode: [label]
+Fix given: [the one fix]
+```
 
 ### Custom
 
@@ -194,13 +242,13 @@ Custom sessions are scored and saved identically to Interview sessions.
 
 Games are a separate mode that builds underlying communication muscles — flow, resilience, conviction, emotional range — rather than practising answer structure. No questions. No dimension scoring.
 
-Offer Games at session start as an option alongside Interview and Custom. Also suggest Games proactively when:
-- Lead or Brevity scores are stuck across three or more sessions
+Offer Games at session start as an option alongside Interview, Presentations, and Custom. Also suggest Games proactively when:
+- Signal or Brevity scores are stuck across three or more sessions
 - User mentions nerves or feeling robotic
-- User asks to warm up before a real interview
+- User asks to warm up before a real interview or presentation
 - Five or more sessions have passed without a game
 
-Three games are active: Conductor, Triple Step, Conviction Prompts. Full mechanics in `references/question-bank.md`, Games Mode section.
+Four games are active: Conductor, Triple Step, Conviction Prompts, Freestyle. Full mechanics in `references/question-bank.md`, Games Mode section.
 
 Game sessions are logged to `coaching_state.md` with a `Games` tag. One observation per session. No dimension scores.
 
@@ -209,7 +257,6 @@ Game sessions are logged to `coaching_state.md` with a `Games` tag. One observat
 The following modes are planned but not yet active. When a user asks about them, tell them they're coming and suggest practising in Custom mode in the meantime.
 
 - **Written comms** — Slack messages, email updates, status reports. Primary shapes: Answer first, Conclusion → Support.
-- **Presentations** — Structuring spoken content. Primary shapes: Rule of Three, Three Steps.
 - **Stakeholder updates** — Progress reports, escalations. Primary shapes: Conclusion → Support (analytical), Three Steps.
 
 ---
@@ -218,7 +265,7 @@ The following modes are planned but not yet active. When a user asks about them,
 
 All state lives in `coaching_state.md` in the project root. Create it on first session if it doesn't exist.
 
-**What to write after every `practice` session:**
+**What to write after every Interview or Custom `practice` session:**
 
 ```
 ## Session [N] — [date]
@@ -227,10 +274,26 @@ Question type: [type]
 Question: [the question asked]
 Shape used: [shape the user used, or "unclear"]
 Shape expected: [correct shape for this question type]
-Scores: Shape [x] / Lead [x] / Brevity [x] / Sequence [x] / Overall [x]
+Scores: Shape [x] / Brevity [x] / Signal [x] / Overall [x]
+Signal note: [Lead gate passed/failed — and Sequence observation if Lead passed]
 Failure mode: [exact label from quick reference table]
 Fix given: [the one fix you gave]
 Word count: [approximate]
+```
+
+**What to write after every Presentations `practice` session:**
+
+```
+## Session [N] — [date]
+Mode: Presentations
+Scenario type: [Team update / All-hands / Stakeholder / Custom]
+Topic: [brief description]
+Shape used: [Rule of Three / Three Steps]
+Arrow identified: [yes / no / unclear]
+Scores: Shape [x] / Brevity [x] / Signal [x] / Overall [x]
+Signal note: [Arrow gate passed/failed — Opening observation if passed]
+Failure mode: [label]
+Fix given: [the one fix]
 ```
 
 **What to maintain across sessions:**
@@ -244,9 +307,8 @@ Sessions this week: [n]
 
 ### Score averages (all time)
 Shape: [x.x]
-Lead: [x.x]
 Brevity: [x.x]
-Sequence: [x.x]
+Signal: [x.x]
 Overall: [x.x]
 
 ### Recurring failure modes
@@ -262,7 +324,7 @@ Present–Past–Future: [n] times
 Rule of Three: [n] times
 
 ### Last session
-[date] — [question type] — Overall [x]
+[date] — [question/scenario type] — Overall [x]
 ```
 
 Read this block at the start of every session. Update it at the end.
@@ -278,7 +340,7 @@ brevity-coach/
 ├── coaching_state.md         ← created on first session, auto-updated
 └── references/
     ├── principles.md         ← the three-layer framework
-    ├── question-bank.md      ← questions by scenario mode
+    ├── question-bank.md      ← interview questions, presentation scenarios, games, warm-up drills
     └── scoring-rubric.md     ← dimension anchors and root cause mapping
 ```
 
