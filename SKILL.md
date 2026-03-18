@@ -35,7 +35,7 @@ If it is the first session:
 - If Interview: explain the flow in one sentence, then begin
 - If Presentations: ask if they have a topic or want a generated scenario, then begin
 - If Custom: ask them to describe the scenario or paste the question, then generate the question and identify the right shape before proceeding
-- If Games: ask which game they want to play — Conductor, Triple Step, Conviction Prompts, or Freestyle — or choose based on what would be most useful
+- If Games: ask which game they want to play — Headline Only, Compression Drill, Pillar Stress Test, or Freestyle — or choose based on what would be most useful
 
 If returning:
 - Note one pattern from recent sessions — the most frequent failure mode if there is one, or the dimension with the lowest average score
@@ -87,10 +87,6 @@ One prioritised fix. The most important thing to change in the next answer. Not 
 
 Show a tighter version of their opening two sentences only — not the whole answer. Label it clearly. This is the teaching moment: the gap between their opener and the rewrite shows exactly where the principle was violated.
 
-**Interrupt rule:**
-
-If the answer exceeds approximately 200 words without a clear headline in the first sentence, note this at the top of the feedback: "Your answer ran long before landing the point. The opener below shows what the first sentence should have been." Then proceed with normal scoring.
-
 **After scoring:**
 
 Ask: "Try again with the same question, or move to a new one?"
@@ -131,7 +127,7 @@ If called during an active `practice` session (i.e. a question has been shown bu
 - Do not show the full reference doc
 
 If called outside a session:
-- Show the full `references/principles.md` content
+- Show the full `principles.md` content
 - After showing it, ask: "Want to start a practice session?"
 
 ---
@@ -174,7 +170,7 @@ These apply across all commands.
 
 ### Interview
 
-Draws from `references/question-bank.md`, section: Interview Questions.
+Draws from `question-bank.md`, section: Interview Questions.
 
 Question types and their default shapes:
 
@@ -194,7 +190,7 @@ When targeting a weak area, prefer question types that exercise the user's lowes
 
 ### Presentations
 
-Draws from `references/question-bank.md`, section: Presentations.
+Draws from `question-bank.md`, section: Presentations.
 
 Sessions have two phases:
 
@@ -202,14 +198,14 @@ Sessions have two phases:
 
 Then show the relevant scenario (or confirm the user's topic), the correct shape, the time target, and the best-practice outline example from the question bank. Prompt the user to share their outline as headings and bullets — not a script.
 
-**Phase 2 — Review.** Score the outline across three dimensions using the adapted Signal criteria (Arrow + Opening instead of Lead + Sequence — see `references/scoring-rubric.md`). Show a tighter rewrite of the opening section only. Give one fix.
+**Phase 2 — Review.** Score the outline across three dimensions using the adapted Signal criteria (Arrow + Opening instead of Lead + Sequence — see `scoring-rubric.md`). Show a tighter rewrite of the opening section only. Give one fix.
 
 **Shape selection for presentations:**
 - Talk with three distinct themes or arguments → Rule of Three
 - Talk with a natural before/during/after or problem/action/outcome flow → Three Steps
 - When in doubt: Rule of Three. It works for more presentation types.
 
-**Signal in Presentations (adapted):** Signal assesses Arrow and Opening instead of Lead and Sequence. See `references/scoring-rubric.md` for the full scoring table and root causes.
+**Signal in Presentations (adapted):** Signal assesses Arrow and Opening instead of Lead and Sequence. See `scoring-rubric.md` for the full scoring table and root causes.
 
 - **Arrow gate:** Is there a single, clear arrow — one thing the audience should remember — that can be stated in one sentence? If not, Signal scores 1–2. Diagnose Arrow before anything else.
 - **If Arrow passes:** Score Opening. Does the opening land the arrow within the first thirty seconds (first one or two bullets)? Does every subsequent section serve the arrow? Are sections in an order that builds toward the close rather than listing topics at equal weight?
@@ -240,15 +236,14 @@ Custom sessions are scored and saved identically to Interview sessions.
 
 ### Games
 
-Games are a separate mode that builds underlying communication muscles — flow, resilience, conviction, emotional range — rather than practising answer structure. No questions. No dimension scoring.
+Games are a separate mode that builds underlying content habits — compression, direction, analytical depth, and the ability to land a point fast — rather than practising answer structure. No questions. No dimension scoring.
 
 Offer Games at session start as an option alongside Interview, Presentations, and Custom. Also suggest Games proactively when:
 - Signal or Brevity scores are stuck across three or more sessions
-- User mentions nerves or feeling robotic
 - User asks to warm up before a real interview or presentation
 - Five or more sessions have passed without a game
 
-Four games are active: Conductor, Triple Step, Conviction Prompts, Freestyle. Full mechanics in `references/question-bank.md`, Games Mode section.
+Four games are active: Headline Only, Compression Drill, Pillar Stress Test, Freestyle. Full mechanics in `question-bank.md`, Games Mode section.
 
 Game sessions are logged to `coaching_state.md` with a `Games` tag. One observation per session. No dimension scores.
 
@@ -335,17 +330,16 @@ Read this block at the start of every session. Update it at the end.
 
 ```
 brevity-coach/
-├── SKILL.md                  ← this file (rename to CLAUDE.md to activate)
+├── CLAUDE.md                 ← this file
 ├── README.md
 ├── coaching_state.md         ← created on first session, auto-updated
-└── references/
-    ├── principles.md         ← the three-layer framework
-    ├── question-bank.md      ← interview questions, presentation scenarios, games, warm-up drills
-    └── scoring-rubric.md     ← dimension anchors and root cause mapping
+├── principles.md             ← the three-layer framework
+├── question-bank.md          ← interview questions, presentation scenarios, games
+└── scoring-rubric.md         ← dimension anchors and root cause mapping
 ```
 
 ---
 
 ## Activation
 
-Rename this file to `CLAUDE.md`, open the folder in Claude Code, and say `practice`.
+Open the folder in Claude Code and say `practice`.
