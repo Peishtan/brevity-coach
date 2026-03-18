@@ -38,10 +38,6 @@ Written communication?                   → Answer first, always
 
 *When answering a direct question, use Conclusion → Support. Rule of Three is for explaining or presenting — structuring content for a listener, not defending a position.
 
-**Q&A variants:** For spoken Q&A specifically, two compressed versions of Conclusion → Support are useful:
-- **PREP** (Point, Reason, Example, Point) — state your point, give a reason, provide an example, restate the point. Good for opinion questions in fast-moving Q&A.
-- **ADD** (Answer, Detailed example, Describe relevance) — answer cleanly, reinforce with an example, connect to why it matters. Good when you need to show relevance quickly.
-
 ---
 
 ### STAR
