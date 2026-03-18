@@ -35,6 +35,7 @@ Shape is assessed first. A well-compressed answer with the wrong structure is st
 | Opinion / strength | Used STAR (told a story) instead of leading with a headline and two pillars. |
 | Process | Described how they feel about the process rather than the steps they follow. |
 | Analytical | Gave evidence without a claim, or a claim without evidence. |
+| Presentation | Organised by topic rather than by arrow. Sections feel like an agenda, not an argument. |
 
 ---
 
@@ -45,7 +46,7 @@ Brevity is not about being short. It is about every sentence earning its place. 
 
 | Score | What it means |
 |---|---|
-| 9–10 | Every sentence does work. Nothing repeated. No filler. Tight within the word target. |
+| 9–10 | Every sentence does work. Nothing repeated. No filler. Tight within the word or time target. |
 | 7–8 | Minor padding. One or two sentences that could be cut without losing meaning. |
 | 5–6 | Noticeable over-explanation. Context that wasn't needed, or a point made twice. |
 | 3–4 | Significant padding. Multiple throat-clearing phrases, repeated points, or extended context that delays the answer. |
@@ -65,11 +66,18 @@ Brevity is not about being short. It is about every sentence earning its place. 
 - Over-explaining the context before any action ("The team had been working on this for six months, and there were a lot of moving parts, and the stakeholder landscape was complex...")
 - Hedging every claim ("I think," "kind of," "in some ways," "sort of")
 - Answering a question they weren't asked
+- Sections in a presentation outline that don't connect to the arrow
 
 ---
 
 ### Signal
 *Did the answer open with a clear lead, and were the elements ordered correctly for the shape used?*
+
+Signal is assessed differently depending on the mode. In Interview and Custom mode, Signal checks Lead and Sequence. In Presentations mode, Signal checks Arrow and Opening. Both use the same 1–10 scale and the same gate logic — the gate just applies to different things.
+
+---
+
+#### Signal — Interview and Custom mode
 
 Signal has two components: Lead and Sequence. Lead is assessed first and acts as a gate — if it fails, Signal scores 1–2 regardless of how well the answer was sequenced. An answer that leads well can recover from other weaknesses. An answer that buries the point rarely recovers.
 
@@ -119,6 +127,45 @@ Weak sequence sounds like:
 
 ---
 
+#### Signal — Presentations mode
+
+Signal assesses **Arrow and Opening** instead of Lead and Sequence. The same gate logic applies: Arrow is checked first. If it fails, Signal scores 1–2 regardless of how the outline is structured.
+
+**Arrow gate: is there a single, clearly stated arrow?**
+
+The arrow is the one thing the audience should remember. It must be stateable in one sentence. Check this before scoring Signal.
+
+Arrow gate failures:
+- No arrow identified before drafting the outline
+- Arrow is a topic label rather than a position ("Q3 results" not "Q3 showed us where we're losing deals")
+- Multiple arrows competing — the talk is trying to land two or three things
+- Arrow appears only in the close, not the opening
+
+If the Arrow gate fails, score Signal 1–2 and diagnose Arrow before anything else.
+
+**If Arrow passes**, score Signal on Opening:
+
+| Score | What it means |
+|---|---|
+| 9–10 | Arrow stated in the opening's first sentence. Every section heading serves the arrow. Close restores it. No section exists that doesn't earn its place relative to the arrow. |
+| 7–8 | Arrow lands in the opening but not sentence one — second or third bullet. Sections mostly serve it. One section slightly off-arrow. |
+| 5–6 | Arrow present but buried — appears mid-outline or implied rather than stated. Sections loosely connected to it. |
+| 3–4 | Arrow gate passed but Opening fails. Arrow stated somewhere but opening doesn't lead with it. Sections feel like a list of topics rather than a structure serving one point. |
+| 1–2 | Arrow gate failed. |
+
+**Root causes — Arrow:**
+
+- **No arrow:** The user started with structure rather than message. Common when the talk feels familiar — they know the content so they jump to slides.
+- **Topic label as arrow:** Defaulting to describing what the talk covers rather than what it argues. "This talk is about churn" is not an arrow.
+- **Multiple arrows:** Scope hasn't been constrained. The user is trying to say everything important rather than the one thing that matters most.
+
+**Root causes — Opening:**
+
+- **Arrow buried:** Instinct to establish context before making the claim. Same root cause as Lead failures in interview answers.
+- **Sections as topic list:** No single arrow to organise around means sections become independent items at equal weight — none serving a central point.
+
+---
+
 ## Overall Score
 
 The overall score is the average of the three dimensions, rounded to one decimal place.
@@ -129,7 +176,7 @@ Use it directionally, not definitively. A 6.5 with a 9 in Shape and a 2 in Signa
 
 | Overall | What it means |
 |---|---|
-| 9–10 | Excellent. The answer would land well in a real interview. One small refinement at most. |
+| 9–10 | Excellent. The answer would land well in a real interview or presentation. One small refinement at most. |
 | 7–8 | Good. The core is right. One clear thing to sharpen. |
 | 5–6 | Developing. The instincts are there but a pattern is getting in the way. Name it and drill it. |
 | 3–4 | Needs work. Multiple issues, but prioritise the highest-impact one. Don't overwhelm. |
@@ -141,12 +188,20 @@ Use it directionally, not definitively. A 6.5 with a 9 in Shape and a 2 in Signa
 
 After scoring, identify the single highest-impact failure mode. Use the quick reference table in `principles.md` as the source of failure mode labels. Name it in the language of that table — not a paraphrase.
 
-**Triage order:**
+**Triage order — Interview and Custom:**
 
 1. If Shape ≤ 4: lead with shape. The structure is wrong. Everything else is secondary.
 2. If Shape ≥ 5 and Lead gate failed (Signal 1–2): lead with the opener. The structure exists but the answer is buried.
 3. If Shape ≥ 5 and Lead gate passed and Signal ≤ 4: lead with sequence. The right elements are present but disordered.
 4. If Shape ≥ 5 and Signal ≥ 5 and Brevity ≤ 5: lead with brevity. The answer is structurally sound but padded.
+5. If all dimensions ≥ 6: note what's working, then identify the single highest-leverage refinement.
+
+**Triage order — Presentations:**
+
+1. If Shape ≤ 4: lead with shape. The outline isn't using the right structure.
+2. If Shape ≥ 5 and Arrow gate failed (Signal 1–2): lead with the arrow. No clear point to build around.
+3. If Shape ≥ 5 and Arrow passed and Signal ≤ 4: lead with Opening. The arrow exists but isn't landing early enough or organising the sections.
+4. If Shape ≥ 5 and Signal ≥ 5 and Brevity ≤ 5: lead with brevity. Sections or bullets that aren't earning their place.
 5. If all dimensions ≥ 6: note what's working, then identify the single highest-leverage refinement.
 
 **One fix only.** The user will improve faster by working on one thing at a time. Name the failure mode, explain why it happened in one sentence, and give one concrete action for the next attempt.
@@ -165,5 +220,6 @@ These root causes appear across multiple dimensions. Naming the root cause — n
 | Narrative hoarding | Brevity, Signal | Compelled to tell the full story. Can't identify which parts serve the answer and which don't. |
 | Trait substitution | Signal (STAR) | Actions described as qualities ("I'm someone who...") rather than steps taken. |
 | Evidence-first habit | Signal | Builds the case before stating the conclusion. Analytical training that backfires in conversation. |
+| Topic-first habit | Signal (Presentations) | Organises by subject matter rather than by message. Sections describe what's covered, not what's argued. |
 
 When the same root cause appears across two or more sessions, name it explicitly in the `progress` output. It's a pattern, not an isolated error.
