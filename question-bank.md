@@ -156,6 +156,82 @@ These questions ask you to reason out loud. The failure mode is presenting evide
 
 ---
 
+## Presentations
+
+*Default shapes: Rule of Three, Three Steps*
+*Default preparation method: Bow and Arrow*
+*Time targets: noted per scenario type*
+
+Presentations practice works differently from interview questions. The user brings a topic or real talk they're preparing — the coach doesn't ask for a transcript. It asks for an outline: headings and bullets only. The session has two phases: design (extract the arrow, structure the talk) and review (score the outline against the three dimensions).
+
+**The Bow and Arrow method:** Before drafting any outline, identify the arrow — the single thing you want the audience to remember. One sentence. Then build the bow around it: the supporting structure (story, data, example) that makes the arrow land. Apply this at two levels: the whole talk, and each section. A section without a clear arrow is a section that doesn't need to exist.
+
+**Best-practice outline example:**
+
+> **Arrow:** Our renewal rate is at risk, and we have ninety days to fix it.
+>
+> **Opening (30 sec):** Land the arrow. One sentence on what's true, one on what's at stake.
+>
+> **Section 1 — What's driving churn**
+> - Three accounts lost in Q3 shared one pattern: no exec sponsor at renewal
+> - Not a product problem — a relationship gap
+>
+> **Section 2 — What we're doing about it**
+> - Executive pairing programme: each strategic account gets a mapped internal exec
+> - Playbook live for top twenty accounts by end of month
+>
+> **Section 3 — What we need**
+> - Two hours per quarter from each of you for exec touchpoints
+> - One ask: commit to the top five accounts on this list today
+>
+> **Close:** Restate the arrow. One sentence.
+
+The arrow is in the opening. Every section serves it. The close restores it. Nothing else is present.
+
+**Format instructions for the user:** Share your outline as headings and bullets — not a full script. Each heading should be a verb-led label that signals what that section does. Under each heading: two to four bullets, each one a discrete point. If a bullet needs more than one line to make sense, it's doing too much.
+
+---
+
+### Scenario bank
+
+*Time targets noted per scenario type. Treat as the upper bound for a tight, well-structured talk.*
+
+**Team update**
+
+*Time target: 8–12 minutes*
+
+| # | Scenario | Coaching focus |
+|---|---|---|
+| P1 | Your CS team missed net revenue retention target for the second consecutive quarter. You have fifteen minutes with your team on Monday. | Arrow must name the problem and what changes — not just what happened. Opening lands it in thirty seconds. |
+| P2 | You've just rolled out a new QBR format across the team. Early feedback is mixed. You have ten minutes at the next team standup. | Arrow identifies the decision: stay the course, adjust, or scrap. Every section serves that decision. |
+| P3 | One of your top performers has been underperforming for six weeks. You want to address it with the broader team without singling anyone out. | Arrow is the standard you're resetting, not the problem you're reacting to. Sections must be actionable, not diagnostic. |
+
+**All-hands**
+
+*Time target: 4–6 minutes*
+
+| # | Scenario | Coaching focus |
+|---|---|---|
+| P4 | Q3 was a difficult quarter — two strategic accounts churned, one expansion stalled. You have five minutes at the company all-hands. | Own it in the opening. Arrow names what you learned or what changes, not just what happened. No defensive framing. |
+| P5 | Your team just hit 110% of NRR target for the first time. You have five minutes at the all-hands to share the story. | Arrow is the reason it worked, not the number itself. Avoid a list of activities — identify the one thing that made the difference. |
+| P6 | The company is restructuring CS to align more closely with Sales. You're presenting the change to your team at the all-hands before the CEO announces it. | Arrow names what stays the same, not just what's changing. Sections must address the real questions the team will have. |
+
+**Stakeholder presentation**
+
+*Time target: 10–15 minutes*
+
+| # | Scenario | Coaching focus |
+|---|---|---|
+| P7 | You're presenting to the CFO to make the case for two additional CSM headcount. She's sceptical of headcount requests and wants to see the ROI case. | Arrow is the business outcome, not the ask. Open with what's at risk without the hire, not with what you want. |
+| P8 | A strategic account — your largest by ARR — is at risk of churning. You're presenting to the CRO with a save plan. | Arrow is the path to save, not the problem. Sections: what's true, what you've done, what you need. Ask must be specific. |
+| P9 | You're presenting your CS team's H1 results to the exec team. NRR was flat. Product gaps were the primary driver. | Arrow frames what flat NRR means in context — not a defence, not an excuse. One section on what you controlled, one on what you couldn't, one on H2. |
+
+**Custom**
+
+User describes their topic, audience, and available time. Coach extracts the arrow with them before they draft anything — ask: "What's the one thing you want the audience to remember?" If they can't answer in one sentence, the arrow isn't clear yet. Work on that first. Then proceed with the standard outline and scoring flow.
+
+---
+
 ## Custom Questions
 
 Custom questions are generated from user-provided scenarios during a session. They follow the same scoring and coaching process as interview questions.
@@ -173,91 +249,84 @@ Custom questions are logged to `coaching_state.md` with a `Custom` tag.
 
 ## Games Mode
 
-Games are a separate practice mode from Interview and Custom. They don't involve questions or scoring — they build the underlying content habits that make answers better: direction, compression, conviction, analytical depth, and recovery.
+Games are a separate practice mode from Interview, Presentations, and Custom. They don't involve questions or scoring — they build the underlying communication muscles that make answers better: flow, resilience, conviction, range, and recovery.
 
-The coach should offer Games as a mode at session start. Games are particularly useful when the user wants to break out of a rut, warm up before a high-stakes conversation, or work on a root cause that question practice alone hasn't fixed.
+The coach should offer Games as a mode at session start. Games are particularly useful when the user wants to warm up before an interview or presentation, break out of a rut, or work on a root cause that question practice alone hasn't fixed.
 
-**When to suggest Games over Interview practice:**
-- User's Signal or Brevity scores are stuck despite repeated sessions — the issue may be a thinking habit, not a structure problem
+**When to suggest Games over Interview or Presentations practice:**
+- User's Lead or Brevity scores are stuck despite repeated sessions — the issue may be a flow problem, not a structure problem
+- User mentions nerves, anxiety, or feeling robotic
 - User asks to warm up before a real interview or presentation
 - User hasn't done a game session in five or more sessions
 
 ---
 
+### Conductor
+**What it trains:** Emotional range, flow state, trusting that energy leads and words follow.
+
+**The mechanic:** A random topic is given. Speak continuously while numbers (1–10) flash on screen — each represents an energy intensity. Instantly match your speaking energy to each number as it appears. A "breathe" slide means pause completely until it passes, then continue.
+
+**The insight:** Each energy level unlocks different thoughts, memories, and content. You're not saying the same thing louder or quieter — you're accessing genuinely different material. Low numbers require willingness to take up space and be still. High numbers require willingness to commit without certainty.
+
+**What to watch for:** Most people have a comfort zone — strong at the highs, uncomfortable at the lows, or stuck in the middle. Where the discomfort is tells you something. Struggling to go low usually means discomfort with silence and taking up space. Struggling to go high usually means fear of commitment or looking foolish.
+
+**To run without the app:** Ask someone to call out random numbers between 1 and 10 while you speak on any topic. Match your energy. Or type nine random numbers, read them to yourself one at a time at roughly ten-second intervals.
+
+**Coaching focus:** After the rep, ask: where did it feel easy, where did it feel hard? Don't score. Identify the edge and name what it might reflect.
+
+---
+
 ### Triple Step
-**What it trains:** Holding a single direction under pressure. Absorbing interruptions without losing the thread. The content equivalent of resilience.
+**What it trains:** Resilience under distraction, staying on a single thread, recovering from the unexpected without losing the line.
 
-**The mechanic:** A topic is given. The user writes continuously for one to two paragraphs. Midway through, the coach injects an unrelated word or short phrase — the user must integrate it seamlessly and keep going without starting a new thread. Three to four injections per rep. After the rep, the coach reveals which words were injected and asks: did they start new thoughts, or get absorbed into one direction?
+**The mechanic:** A random topic is given. Speak for one minute. Six random unrelated words are injected at intervals — integrate each one into your speech as seamlessly as possible without breaking your train of thought. The goal: a listener who can't see the words should struggle to identify which were the injected ones.
 
-**The insight:** The stronger the initial direction, the easier the injections are to absorb — they bend to serve the argument already in motion. Weak direction means every injection restarts the thinking. Strong direction means every injection becomes an example, a contrast, or an aside that folds back in.
+**The insight:** The game forces you to hold a direction under pressure. The stronger your initial direction, the easier the words are to integrate — they work for you instead of derailing you. Weak direction means every new word starts a new thread. Strong direction means every new word bends to serve the one you're already on.
 
-**What to watch for:** If the user's paragraphs shift topic after each injection, the direction was weak before the interruption arrived. The fix is choosing a stronger opening claim — one specific enough to pull everything toward it.
+**Variants:**
+- Start with four words instead of six if new to the game
+- Integrate metaphorically, not just literally ("the internet of my mind" not just "the internet")
+- Use as a brain warm-up before any high-stakes conversation — a few reps lights up the parts of the brain needed for real-time communication
 
-**Coaching focus:** After the rep, ask: did the injected words start new thoughts, or get absorbed into one? If the former, have them try again with a sharper opening sentence before writing anything else.
-
-**Injected words and phrases to use:** deadline, borrowed, the opposite, underneath, actually, what changed, too late, turns out, the real question, by accident.
+**Coaching focus:** After the rep, ask: did the words start new thoughts, or get absorbed into one direction? If the former, practise choosing a stronger direction at the top before speaking.
 
 ---
 
 ### Conviction Prompts
-**What it trains:** Standing behind your words. Reducing hedging. Finding the specific claim underneath the vague one.
+**What it trains:** Executive presence, standing behind your words, reducing hedging and throat-clearing.
 
-**The mechanic:** A topic is given. The user writes freely. The coach injects conviction phrases mid-response that the user must complete without hedging immediately afterward:
-- "This matters because..."
+**The mechanic:** A random topic is given. Speak while integrating conviction phrases as they appear — the beginning of a sentence that you must complete out loud:
+- "This matters a ton."
 - "I genuinely believe that..."
-- "The thing most people miss is..."
+- "It astonishes me when..."
+- "Game changer."
 - "What I want you to understand is..."
-- "It surprises me when..."
-- "The mistake here is..."
+- "The thing most people miss is..."
 
-After the rep, the coach flags any prompt that was completed and then immediately qualified ("I genuinely believe that... although it depends..."). Those are the moments to redo.
+**The insight:** The prompt puts you in a state. The content follows the state. When forced to say "I genuinely believe that...", you find you have something to genuinely believe. The game reveals that conviction is a posture you can choose, not just a feeling you wait for.
 
-**The insight:** The prompt forces a posture. The content follows. Most hedging happens not because the person lacks a view but because they haven't committed to one before they start writing. The prompt removes the choice.
+**What to watch for:** Hedging immediately after the prompt ("I genuinely believe that... well, in some cases...") defeats the exercise. The prompt must carry through. If the user hedges, name it and have them redo the rep.
 
-**What to watch for:** Hedging in the sentence immediately after the prompt completion. That's where the conviction leaked. Also watch for vague completions — "This matters because it's important" restates the prompt without adding anything. Push for a specific noun and verb.
-
-**Coaching focus:** After the rep, ask: did anything specific come out that surprised you? Conviction prompts often surface a cleaner version of what the person actually thinks, underneath the hedged version they usually write.
+**Coaching focus:** After the rep, ask: did the content feel more certain? Did anything surprising come out? Conviction prompts often surface insights the speaker didn't know they had.
 
 ---
 
-### Headline Only
-**What it trains:** The Lead gate. Writing a sentence that resolves a question with a clear noun and verb — nothing else.
+### Freestyle
+**What it trains:** Landing a point fast with no preparation. Finding the arrow under pressure. Compression as a default, not an afterthought.
 
-**The mechanic:** The coach gives five questions in rapid succession, one at a time. For each, the user writes only the first sentence of their answer — no more. No context, no setup, no qualifiers. One sentence. The coach scores each on whether it resolves the question with a specific noun and verb, then moves immediately to the next.
+**The mechanic:** A topic is given — professional or personal, realistic or absurd. The user responds in fifty words or fewer. Arrow in the first sentence. Two or three bullets of support. Nothing else. No preamble, no wind-up, no closing summary.
 
-**The insight:** Most people discover they can write a clean headline when forced to stop after one sentence. The discipline is then carrying that same instinct into full answers, where the temptation to set up context before committing returns.
+**The insight:** Fifty words is enough to make a point clearly. Most people discover they've been using the extra words as a security blanket — they didn't need them. The constraint also forces the arrow to exist before anything else gets written. You can't fill fifty words with context and hope the point emerges.
 
-**What to watch for:** Vague nouns ("things," "it," "this"), missing verbs, and sentences that gesture toward an answer without stating one. Also watch for sentences that ask a question back rather than answering ("It depends on what you mean by...").
+**Topics — professional:**
+Your team's biggest problem right now. The most important thing a new CSM needs to learn. What good looks like in a QBR. The case for your team's headcount ask. What you'd change about how CS is measured.
 
-**Coaching focus:** After five rounds, identify the one pattern that appeared most often — vague noun, missing verb, or hedged opener — and name it. Then offer one more round targeting that specific failure.
+**Topics — personal and improv:**
+The time you embarrassed yourself. The worst advice you ever followed. What you'd tell your twenty-five-year-old self. The most useful thing you own. The skill you wish you'd learned earlier. Something you were wrong about for years.
 
-**Good questions to use for Headline Only:** Use any question from the Interview question bank. Opinion, strength, and analytical questions work best — they require a clear position, not just a story.
+**What to watch for:** Arrow buried in the second or third bullet — the user saved the point for last. Opening sentence that describes the topic rather than stating a position. Word count over fifty without a cleaner version existing underneath.
 
----
-
-### Compression Drill
-**What it trains:** The editing instinct. Deciding what actually matters by being forced to cut.
-
-**The mechanic:** The coach supplies a full answer — either one the user wrote in a previous session, a supplied example, or a deliberately padded version the coach generates. The user must rewrite it at half the word count without losing the core point. Then cut it again to a single sentence. After each cut, the coach asks: what did you remove, and why?
-
-**The insight:** You cannot compress without prioritising. The first cut removes the obvious filler. The second cut forces a choice about what the answer actually is — which is often clearer after the first cut than it was before writing anything. The single-sentence version is the headline the full answer should have opened with.
-
-**What to watch for:** Users who cut by trimming words rather than removing sentences. That's editing for style, not for structure. The goal is removing whole ideas, not shortening the ones that remain. Also watch for cuts that remove the result or the implication — those are often the first to go, and they're usually the most important.
-
-**Coaching focus:** After the drill, show the single-sentence version alongside the original opening sentence. If they're different — and they usually are — that gap is the lesson. The single sentence is what the answer should have led with.
-
----
-
-### Pillar Stress Test
-**What it trains:** Analytical depth. Finding the real reason underneath the stated one. Building Conclusion → Support (analytical mode) answers that actually hold up.
-
-**The mechanic:** The user states a position in one sentence on any topic — a view, a recommendation, a belief. The coach asks "why?" They answer. The coach asks "why?" again. Two or three rounds. After the final round, the coach asks: which of these is the actual reason, and which ones were restatements?
-
-**The insight:** Most stated reasons are conclusions in disguise. "I think we should launch because the market is ready" — why is the market ready? The real reason is usually one or two levels down. Once found, it becomes the reason in the analytical answer, not the filler that precedes it.
-
-**What to watch for:** Answers that restate the original position at a different level of abstraction ("because it's the right time" → "because the timing is good") without adding new logic. That's circular reasoning, not depth. Push until a genuinely new piece of logic appears — a mechanism, a data point, or a cause-and-effect relationship that wasn't visible in the original claim.
-
-**Coaching focus:** After three rounds, ask the user to restate their original position using the deepest reason they found. That rewrite is almost always stronger than what they started with. Note the gap between the two.
+**Coaching focus:** After each rep, ask one question: where's the arrow? If it's not in sentence one, that's the rep to redo. Run three to four reps per session — topic variety matters more than repetition on the same one.
 
 ---
 
@@ -266,26 +335,16 @@ After the rep, the coach flags any prompt that was completed and then immediatel
 Games sessions are not scored the same way as practice sessions. Instead:
 
 1. Ask which game the user wants to play, or choose based on their current coaching state
-2. Give a topic or supply the material (see each game for specifics)
+2. Give a random topic (generate one — avoid anything requiring specialist knowledge)
 3. Run the rep
-4. After the rep, give one observation — what the pattern suggests, not a score
+4. After the rep, ask one question: what felt easy, what felt hard?
 5. Offer to run another rep on the same game or switch
-6. After two or three reps, surface one larger observation about what the pattern might mean across reps
+6. After two or three reps, surface one observation about what the pattern might mean
 
-Log game sessions to `coaching_state.md` with a `Games` tag. Note the game played and the observation made. Do not log dimension scores.
+Log game sessions to `coaching_state.md` with a `Games` tag. Note the game played and the observation made. Do not log dimension scores — games aren't scored that way.
 
-**Choosing a game based on coaching state:**
-
-| Weak dimension | Recommended game |
-|---|---|
-| Signal (Lead failing) | Headline Only |
-| Signal (Sequence failing) | Triple Step |
-| Brevity | Compression Drill |
-| Shape (analytical questions) | Pillar Stress Test |
-| Any — hedging pattern present | Conviction Prompts |
-
-**Good topics for Triple Step and Conviction Prompts:**
-Habits, Failure, Risk, The best decision I ever made, Patience, What I've learned recently, Momentum, Saying no, Attention, Trust, Starting over, Simplicity, What I'd tell my younger self, Time, The thing most people overlook, Competition.
+**Good random topic prompts for games:**
+Habits, Failure, Risk, Home, The best decision I ever made, Patience, What I've learned recently, The hardest conversation I've had, Momentum, Sleep, Saying no, Attention, Trust, The thing most people overlook, Competition, Starting over, Simplicity, What I'd tell my younger self, Time.
 
 ---
 
@@ -298,18 +357,6 @@ The following sections are reserved for future expansion. Questions will be adde
 - Status reports
 - Meeting summaries
 
-### Presentations
-*Planned shapes: Rule of Three, Three Steps*
-*Planned preparation methods: Accordion Method, Bow and Arrow*
-- Stakeholder presentations
-- Strategy decks
-- Team updates
-- All-hands talks
-
-**Accordion Method** (stub — activates with Presentations mode): Prepare talks by speaking, not writing. Compress through time constraints (3min → 2min → 1min → 30sec), then expand back up. Going down strips to the essential. Coming back up, everything added is intentional. Result: talk is internalised, not memorised. No script — just one arrow and three bookmarks.
-
-**Bow and Arrow** (stub — activates with Presentations mode): Identify the one thing you want the audience to remember (the arrow). Build supporting weight around it — a story, data point, or anecdote (the bow). Apply at macro level (whole talk) and micro level (each slide). Shift the question from "what do I want to say?" to "what do I want them to remember?"
-
 ### Stakeholder Updates
 *Planned shapes: Conclusion → Support (analytical), Three Steps*
 - Project status updates
@@ -321,17 +368,26 @@ The following sections are reserved for future expansion. Questions will be adde
 
 ## Warm-Up Drills
 
-Optional exercises before a practice session. Particularly useful before a real interview or high-stakes conversation. The coach can offer these at session start if the user asks to warm up.
+Optional exercises before a practice session. Particularly useful before a real interview, presentation, or high-stakes conversation. The coach can offer these at session start if the user asks to warm up.
+
+### Conductor
+Random topic is given. Speaker must speak continuously while numbers (1–10) flash on screen, each representing an intensity or energy level. Match the energy as each number appears. A "breathe" slide means pause completely until it passes.
+
+What it builds: accessing different emotional states on demand. Each energy level unlocks different thoughts and memories. Energy leads, emotion follows, words fill in the gap.
+
+To run without the app: ask a friend to call out random numbers between 1 and 10 while you speak on a topic. Match your energy to each number.
 
 ### Triple Step
-Random topic is given. Write continuously for one to two paragraphs. The coach injects unrelated words or phrases at intervals — integrate each one seamlessly without losing your thread.
+Random topic is given. Speak for one minute. Six random unrelated words are injected at intervals — integrate each one into your speech as seamlessly as possible without losing your thread.
 
-What it builds: holding a direction under pressure, absorbing interruptions without starting new threads.
+What it builds: resilience against distraction, staying on a single direction under pressure, recovering gracefully from unexpected interruptions. Also a strong brain warm-up before interviews and presentations.
+
+To run without the app: write six random words on cards. Have a friend hold them up one at a time as you speak.
 
 ### Conviction Prompts
-Random topic is given. Write freely while integrating strong conviction phrases as they appear: "This matters because...", "I genuinely believe that...", "The thing most people miss is...", "The mistake here is..."
+Random topic is given. Speak while integrating strong conviction phrases as they appear: "This matters a ton.", "I genuinely believe that...", "It astonishes me when...", "Game changer."
 
-What it builds: standing behind your words, reducing hedging, finding the specific claim underneath the vague one.
+What it builds: executive presence, standing behind your words, reducing hedging. The prompt puts you in a state of conviction — the content follows.
 
 ### Double Exhale
 Before speaking: breathe in for three seconds, sneak in a tiny extra breath, then exhale for six seconds. The relaxation response is triggered during the extended exhale, not the inhale. One or two rounds is enough.
@@ -348,16 +404,17 @@ Before a high-stakes conversation: remind yourself that the physical symptoms of
 
 Used by the coach during `practice` to choose the next question.
 
-**First session:** Ask the user which mode they want. If Interview, ask if they want a specific question type or to let the coach choose.
+**First session:** Ask the user which mode they want. If Interview, ask if they want a specific question type or to let the coach choose. If Presentations, ask if they have a topic or want a generated scenario.
 
 **Returning sessions:** Check `coaching_state.md` for the lowest-scoring dimension and most frequent failure mode. Select a question type that targets it:
 
 | Lowest dimension | Preferred question types |
 |---|---|
-| Signal (Lead failing) | Openers, Strengths, Motivation |
+| Lead | Openers, Strengths, Motivation |
 | Shape | Behavioural (STAR), Process (Three Steps) |
-| Signal (Sequence failing) | Behavioural, Process |
+| Sequence | Behavioural, Process |
 | Brevity | Any — set word target to the lower bound of the range |
+| Arrow | Presentations — any scenario type |
 
 **Avoid repeating** the same question in consecutive sessions unless the user asks to retry it.
 
