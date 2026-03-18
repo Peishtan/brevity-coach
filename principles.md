@@ -32,6 +32,7 @@ Reasoning required?                      → Conclusion → Support (analytical 
 Process question?                        → Three Steps
 About you?                               → Present–Past–Future
 Presentation or explanation with parts? → Rule of Three*
+Building a presentation from scratch?   → Bow and Arrow first, then Rule of Three or Three Steps
 Written communication?                   → Answer first, always
 ```
 
@@ -160,6 +161,25 @@ Second — actions must be sequential, not listed. Sequence creates credibility.
 
 ---
 
+### Bow and Arrow
+**Use when:** Building a presentation from scratch. Any time you have content but no clear message yet. Use this before you pick Rule of Three or Three Steps — it finds the point those shapes will carry.
+
+**Structure:**
+- **Arrow:** The one thing the audience should remember. One sentence. If you can't state it in one sentence, it isn't clear yet.
+- **Bow:** The supporting structure — story, data, example — that makes the arrow land. Built around the arrow, not before it.
+
+Apply at two levels: the whole talk, and each section. A section without its own arrow doesn't need to exist.
+
+**The discipline:** Extract the arrow before drafting anything. The instinct is to start with structure — slides, headings, bullets. Resist it. Structure built without an arrow organises content instead of making a point. Once the arrow is clear, Rule of Three or Three Steps carries it.
+
+**Failure mode:** Starting with the outline and hoping the point emerges.
+
+> **Weak:** Opening with three agenda items — "Today I'll cover Q3 results, team capacity, and H2 planning" — and letting the audience infer what it all means.
+>
+> **Strong:** Arrow first: "We have ninety days to fix retention or we miss the year." Then build the bow: what's driving churn, what you've already done, what you need from the room. Every section serves that one sentence.
+
+---
+
 ## Layer 2: Compression Rules
 
 Apply these after picking your shape. They reduce word count without losing meaning.
@@ -236,3 +256,4 @@ Don't leak insecurities. If you stumble, go slightly off-track, or feel uncertai
 | Rambling past twenty seconds | Two ideas merged | Find the seam, split into two sentences |
 | Undercutting at the end | End strong violation | Use a summary prompt, land the plane |
 | Apologising for stumbling | Character break | Stay in it — they didn't notice until you told them |
+| Outline built before arrow | Bow and Arrow skipped | State the one thing first, then build the structure around it |
