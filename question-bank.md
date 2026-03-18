@@ -249,74 +249,68 @@ Custom questions are logged to `coaching_state.md` with a `Custom` tag.
 
 ## Games Mode
 
-Games are a separate practice mode from Interview, Presentations, and Custom. They don't involve questions or scoring — they build the underlying communication muscles that make answers better: flow, resilience, conviction, range, and recovery.
+Games are a separate practice mode from Interview, Presentations, and Custom. They build the underlying content habits that make answers better: compression, direction, analytical depth, and the ability to land a point fast. No questions. No dimension scoring.
 
-The coach should offer Games as a mode at session start. Games are particularly useful when the user wants to warm up before an interview or presentation, break out of a rut, or work on a root cause that question practice alone hasn't fixed.
+The coach should offer Games as a mode at session start. Games are particularly useful when the user wants to break out of a rut, or work on a root cause that question practice alone hasn't fixed.
 
 **When to suggest Games over Interview or Presentations practice:**
-- User's Lead or Brevity scores are stuck despite repeated sessions — the issue may be a flow problem, not a structure problem
-- User mentions nerves, anxiety, or feeling robotic
+- User's Lead or Brevity scores are stuck across three or more sessions — the issue may be a thinking habit, not a structure problem
 - User asks to warm up before a real interview or presentation
-- User hasn't done a game session in five or more sessions
+- Five or more sessions have passed without a game
 
 ---
 
-### Conductor
-**What it trains:** Emotional range, flow state, trusting that energy leads and words follow.
+### Headline Only
+**What it trains:** The Lead gate. Landing the point in sentence one, every time, with no warm-up.
 
-**The mechanic:** A random topic is given. Speak continuously while numbers (1–10) flash on screen — each represents an energy intensity. Instantly match your speaking energy to each number as it appears. A "breathe" slide means pause completely until it passes, then continue.
+**The mechanic:** Five questions in a row, one sentence each. No context, no setup, no supporting evidence. The answer is the headline only. If the first word isn't a noun or verb that resolves the question, the rep doesn't count.
 
-**The insight:** Each energy level unlocks different thoughts, memories, and content. You're not saying the same thing louder or quieter — you're accessing genuinely different material. Low numbers require willingness to take up space and be still. High numbers require willingness to commit without certainty.
+**The insight:** Most people discover their instinct is to set up the answer rather than state it. Headline Only removes that option entirely. Five reps in a row makes the pattern visceral — not just understood.
 
-**What to watch for:** Most people have a comfort zone — strong at the highs, uncomfortable at the lows, or stuck in the middle. Where the discomfort is tells you something. Struggling to go low usually means discomfort with silence and taking up space. Struggling to go high usually means fear of commitment or looking foolish.
+**What to watch for:** Answers that describe the topic instead of taking a position ("There are a few things to consider here..."). Answers that start with "I think" or "It depends" — these are hedges, not headlines. Answers that land the point in sentence two. The headline must be sentence one.
 
-**To run without the app:** Ask someone to call out random numbers between 1 and 10 while you speak on any topic. Match your energy. Or type nine random numbers, read them to yourself one at a time at roughly ten-second intervals.
+**Coaching focus:** After each rep, ask: is that a position, or a topic label? If the answer could apply to any version of the question — if it doesn't commit to anything — send it back. Run all five questions before surfacing a pattern. Use questions from any Interview question type.
 
-**Coaching focus:** After the rep, ask: where did it feel easy, where did it feel hard? Don't score. Identify the edge and name what it might reflect.
-
----
-
-### Triple Step
-**What it trains:** Resilience under distraction, staying on a single thread, recovering from the unexpected without losing the line.
-
-**The mechanic:** A random topic is given. Speak for one minute. Six random unrelated words are injected at intervals — integrate each one into your speech as seamlessly as possible without breaking your train of thought. The goal: a listener who can't see the words should struggle to identify which were the injected ones.
-
-**The insight:** The game forces you to hold a direction under pressure. The stronger your initial direction, the easier the words are to integrate — they work for you instead of derailing you. Weak direction means every new word starts a new thread. Strong direction means every new word bends to serve the one you're already on.
-
-**Variants:**
-- Start with four words instead of six if new to the game
-- Integrate metaphorically, not just literally ("the internet of my mind" not just "the internet")
-- Use as a brain warm-up before any high-stakes conversation — a few reps lights up the parts of the brain needed for real-time communication
-
-**Coaching focus:** After the rep, ask: did the words start new thoughts, or get absorbed into one direction? If the former, practise choosing a stronger direction at the top before speaking.
+**Good questions for Headline Only:**
+What's your greatest strength? What's the biggest challenge in your current role? Why do you want to leave? What would you focus on in the first ninety days? What does success look like in six months?
 
 ---
 
-### Conviction Prompts
-**What it trains:** Executive presence, standing behind your words, reducing hedging and throat-clearing.
+### Compression Drill
+**What it trains:** The editing instinct. Identifying what's doing work versus what's filler.
 
-**The mechanic:** A random topic is given. Speak while integrating conviction phrases as they appear — the beginning of a sentence that you must complete out loud:
-- "This matters a ton."
-- "I genuinely believe that..."
-- "It astonishes me when..."
-- "Game changer."
-- "What I want you to understand is..."
-- "The thing most people miss is..."
+**The mechanic:** The user writes a full answer to an interview question — no word limit, no pressure. Then rewrites it at half the word count. Then compresses to a single sentence. Three versions, same content. The point isn't to use the single-sentence version — it's to find out what survives the compression.
 
-**The insight:** The prompt puts you in a state. The content follows the state. When forced to say "I genuinely believe that...", you find you have something to genuinely believe. The game reveals that conviction is a posture you can choose, not just a feeling you wait for.
+**The insight:** What survives to the single sentence is the actual answer. Everything else was packaging. Most people discover their real point was buried in the middle of the full version — which means it was losing to context every time. The drill teaches you to find the core before you start, not after.
 
-**What to watch for:** Hedging immediately after the prompt ("I genuinely believe that... well, in some cases...") defeats the exercise. The prompt must carry through. If the user hedges, name it and have them redo the rep.
+**What to watch for:** Single-sentence versions that are vague — the user compressed the packaging instead of isolating the point. The final sentence should be specific enough to stand alone as a complete answer, not a summary of the structure ("I use a three-step approach..."). If it's vague, the full version probably didn't have a clear point to begin with.
 
-**Coaching focus:** After the rep, ask: did the content feel more certain? Did anything surprising come out? Conviction prompts often surface insights the speaker didn't know they had.
+**Coaching focus:** After all three versions, ask: what changed between the full version and the single sentence? Where did the point live in the original? If the point was in paragraph three, that's the diagnosis — and the fix for the next full answer is to put it in sentence one.
+
+---
+
+### Pillar Stress Test
+**What it trains:** Analytical depth. Finding the real reason underneath the stated one.
+
+**The mechanic:** The user states a position — any claim, opinion, or conclusion. The coach asks "why?" two or three times in a row, each time pushing past the surface reason to the one underneath. The goal is to find the deepest honest answer — the reason that doesn't have another "why" beneath it.
+
+**The insight:** Most stated reasons are one layer above the real one. "I want to move on because I've stopped growing" becomes "I stopped growing because I've been solving the same problem for two years" becomes "the company's growth stalled and there's no new surface to work on." The third answer is more specific, more honest, and more compelling than the first.
+
+**What to watch for:** Users who give the same answer at different levels of abstraction — the "why" just restates the original claim. Push until the answer changes. Also watch for users who reach a genuine bottom quickly — two levels is sometimes enough. The goal is depth, not volume.
+
+**Coaching focus:** After the drill, ask: which version would you actually say in an interview? Then ask: why aren't you leading with that? The deepest honest answer is almost always the strongest one — and it's almost never the first thing out.
+
+**Good starting positions:**
+Why do you want to leave your current role? Why do you want this job? What's the biggest thing holding your team back? What do you think your company is getting wrong? What's the one thing you'd change if you could?
 
 ---
 
 ### Freestyle
 **What it trains:** Landing a point fast with no preparation. Finding the arrow under pressure. Compression as a default, not an afterthought.
 
-**The mechanic:** A topic is given — professional or personal, realistic or absurd. The user responds in fifty words or fewer. Arrow in the first sentence. Two or three bullets of support. Nothing else. No preamble, no wind-up, no closing summary.
+**The mechanic:** A topic is given — professional or personal. The user responds in fifty words or fewer. Arrow in the first sentence. Two or three supporting points. Nothing else. No preamble, no wind-up, no closing summary.
 
-**The insight:** Fifty words is enough to make a point clearly. Most people discover they've been using the extra words as a security blanket — they didn't need them. The constraint also forces the arrow to exist before anything else gets written. You can't fill fifty words with context and hope the point emerges.
+**The insight:** Fifty words is enough to make a point clearly. Most people discover they've been using the extra words as a security blanket — they didn't need them. The constraint forces the arrow to exist before anything else gets written. You can't fill fifty words with context and hope the point emerges.
 
 **Topics — professional:**
 Your team's biggest problem right now. The most important thing a new CSM needs to learn. What good looks like in a QBR. The case for your team's headcount ask. What you'd change about how CS is measured.
@@ -324,7 +318,7 @@ Your team's biggest problem right now. The most important thing a new CSM needs 
 **Topics — personal and improv:**
 The time you embarrassed yourself. The worst advice you ever followed. What you'd tell your twenty-five-year-old self. The most useful thing you own. The skill you wish you'd learned earlier. Something you were wrong about for years.
 
-**What to watch for:** Arrow buried in the second or third bullet — the user saved the point for last. Opening sentence that describes the topic rather than stating a position. Word count over fifty without a cleaner version existing underneath.
+**What to watch for:** Arrow buried in the second or third point — the user saved the position for last. Opening sentence that describes the topic rather than stating a position. Word count over fifty without a cleaner version underneath.
 
 **Coaching focus:** After each rep, ask one question: where's the arrow? If it's not in sentence one, that's the rep to redo. Run three to four reps per session — topic variety matters more than repetition on the same one.
 
@@ -335,20 +329,20 @@ The time you embarrassed yourself. The worst advice you ever followed. What you'
 Games sessions are not scored the same way as practice sessions. Instead:
 
 1. Ask which game the user wants to play, or choose based on their current coaching state
-2. Give a random topic (generate one — avoid anything requiring specialist knowledge)
+2. Give a topic or question prompt (generate one — avoid anything requiring specialist knowledge)
 3. Run the rep
-4. After the rep, ask one question: what felt easy, what felt hard?
+4. After the rep, ask one targeted question (see each game's coaching focus)
 5. Offer to run another rep on the same game or switch
 6. After two or three reps, surface one observation about what the pattern might mean
 
 Log game sessions to `coaching_state.md` with a `Games` tag. Note the game played and the observation made. Do not log dimension scores — games aren't scored that way.
 
-**Good random topic prompts for games:**
-Habits, Failure, Risk, Home, The best decision I ever made, Patience, What I've learned recently, The hardest conversation I've had, Momentum, Sleep, Saying no, Attention, Trust, The thing most people overlook, Competition, Starting over, Simplicity, What I'd tell my younger self, Time.
+**Good random topic prompts for Freestyle:**
+Habits, Failure, Risk, The best decision I ever made, Patience, What I've learned recently, Momentum, Saying no, Attention, Trust, The thing most people overlook, Starting over, Simplicity, What I'd tell my younger self, Time.
 
 ---
 
-The following sections are reserved for future expansion. Questions will be added when each mode is activated.
+The following sections are reserved for future expansion. These modes are planned but not yet active. If the user asks about them, let them know they're coming and suggest practising in Custom mode in the meantime.
 
 ### Written Comms
 *Planned shapes: Answer first, Conclusion → Support*
@@ -363,40 +357,6 @@ The following sections are reserved for future expansion. Questions will be adde
 - Escalations
 - Progress reports
 - Executive briefings
-
----
-
-## Warm-Up Drills
-
-Optional exercises before a practice session. Particularly useful before a real interview, presentation, or high-stakes conversation. The coach can offer these at session start if the user asks to warm up.
-
-### Conductor
-Random topic is given. Speaker must speak continuously while numbers (1–10) flash on screen, each representing an intensity or energy level. Match the energy as each number appears. A "breathe" slide means pause completely until it passes.
-
-What it builds: accessing different emotional states on demand. Each energy level unlocks different thoughts and memories. Energy leads, emotion follows, words fill in the gap.
-
-To run without the app: ask a friend to call out random numbers between 1 and 10 while you speak on a topic. Match your energy to each number.
-
-### Triple Step
-Random topic is given. Speak for one minute. Six random unrelated words are injected at intervals — integrate each one into your speech as seamlessly as possible without losing your thread.
-
-What it builds: resilience against distraction, staying on a single direction under pressure, recovering gracefully from unexpected interruptions. Also a strong brain warm-up before interviews and presentations.
-
-To run without the app: write six random words on cards. Have a friend hold them up one at a time as you speak.
-
-### Conviction Prompts
-Random topic is given. Speak while integrating strong conviction phrases as they appear: "This matters a ton.", "I genuinely believe that...", "It astonishes me when...", "Game changer."
-
-What it builds: executive presence, standing behind your words, reducing hedging. The prompt puts you in a state of conviction — the content follows.
-
-### Double Exhale
-Before speaking: breathe in for three seconds, sneak in a tiny extra breath, then exhale for six seconds. The relaxation response is triggered during the extended exhale, not the inhale. One or two rounds is enough.
-
-### Tongue Twister
-Recite a short tongue twister immediately before speaking (e.g. "I slit a sheet, a sheet I slit..."). Requires intense focus to avoid stumbling — forces you out of future-catastrophising and into the present moment. Also warms up the vocal cords.
-
-### Reframe
-Before a high-stakes conversation: remind yourself that the physical symptoms of anxiety are identical to excitement. Use a simple mantra — "I have value to add" or "I am ready" — to reframe the sensation rather than suppress it.
 
 ---
 
