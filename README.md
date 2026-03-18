@@ -153,14 +153,13 @@ Run `principles` at any time to see the full reference.
 
 ```
 brevity-coach/
-├── SKILL.md                      ← rename to CLAUDE.md to activate (Claude Code)
-├── PROJECT_INSTRUCTIONS.md       ← paste into Claude.ai Project custom instructions (mobile)
-├── README.md                     ← this file
-├── coaching_state.md             ← created on first session, auto-updated
-└── references/
-    ├── principles.md             ← the three-layer framework with examples
-    ├── question-bank.md          ← interview questions, presentation scenarios, games, warm-up drills
-    └── scoring-rubric.md         ← dimension anchors, root causes, diagnosis protocol
+├── SKILL.md                  ← rename to CLAUDE.md to activate (Claude Code)
+├── PROJECT_INSTRUCTIONS.md   ← paste into Claude.ai Project custom instructions (mobile)
+├── README.md                 ← this file
+├── coaching_state.md         ← created on first session, auto-updated
+└── principles.md             ← the three-layer framework with examples
+└── question-bank.md          ← interview questions, presentation scenarios, games, warm-up drills
+└── scoring-rubric.md         ← dimension anchors, root causes, diagnosis protocol
 ```
 
 ---
