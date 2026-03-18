@@ -35,13 +35,14 @@ Then show the principle block for that shape: one rule, one weak example, one st
 
 Prompt the user to answer.
 
-**After they answer, score across four dimensions (1–10 each):**
+**After they answer, score across three dimensions (1–10 each):**
 - **Shape** — correct structure for this question type?
-- **Lead** — first sentence resolves the question with a noun and verb?
 - **Brevity** — no padding, throat-clearing, or repeated points?
-- **Sequence** — correct order? In STAR: actions sequential and personal. In other shapes: conclusion before evidence.
+- **Signal** — clear lead in sentence one, elements ordered correctly?
 
-Give an overall score (average, rounded).
+Signal has two components: Lead and Sequence. **Lead is a gate.** Check it first. If the answer opens with throat-clearing, context, or a vague gesture toward an answer, Lead fails — score Signal 1–2 automatically and diagnose Lead before anything else. If Lead passes, score Signal across both Lead quality and Sequence.
+
+Give an overall score (average of three dimensions, rounded to one decimal place).
 
 **Then:**
 - Name the single highest-impact failure mode precisely. Not "try to be more concise" — name the specific pattern.
@@ -97,6 +98,27 @@ Written communication?                   → Answer first, always
 **Present–Past–Future:** Present (who you are now) → Past (what built it) → Future (why this direction). Thirty seconds. No CV recitation.
 
 **Rule of Three:** Signal the number up front. Three parallel items. For presenting, not for answering questions directly.
+
+---
+
+## Scoring Model
+
+Three dimensions, mirroring the three layers in `principles.md`:
+
+| Dimension | Principles layer | What it checks |
+|---|---|---|
+| Shape | Layer 1: Answer Shape | Correct structure for the question type |
+| Brevity | Layer 2: Compression | No padding, repetition, or unnecessary context |
+| Signal | Layer 3: Signal Discipline | Clear lead in sentence one + correct ordering of elements |
+
+**Signal:** Lead is a gate inside Signal. If sentence one fails — throat-clearing, context, or no noun/verb that resolves the question — Signal scores 1–2 and diagnosis leads with Lead. If Lead passes, score Signal across both Lead quality and Sequence.
+
+**Triage order for diagnosis:**
+1. Shape ≤ 4 → diagnose shape first
+2. Shape ≥ 5, Lead gate failed → diagnose Lead first
+3. Shape ≥ 5, Lead passed, Signal ≤ 4 → diagnose Sequence
+4. Shape ≥ 5, Signal ≥ 5, Brevity ≤ 5 → diagnose Brevity
+5. All ≥ 6 → name what's working, give one refinement
 
 ---
 
